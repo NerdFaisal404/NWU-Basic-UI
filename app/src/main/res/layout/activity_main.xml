@@ -52,16 +52,27 @@
         <EditText
             android:id="@+id/edt_userName"
             android:layout_width="match_parent"
+            android:hint="@string/enter_your_username"
             android:layout_height="wrap_content"
             android:background="@color/textColorWhite" />
 
         <EditText
-            android:layout_marginTop="10dp"
             android:id="@+id/edt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/edt_userName"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_your_password"
             android:background="@color/textColorWhite" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_login"
+            android:text="@string/login" />
     </RelativeLayout>
 
 
